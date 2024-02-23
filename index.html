@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Main template css file -->
@@ -19,6 +20,10 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    
+    <!-- JavaScript File -->
+    <script src = "js/main.js"></script>
+
     <title>Leon</title>
   </head>
   <body>
@@ -27,12 +32,12 @@
       <div class="container">
         <img class="logo" src="images/logo.png" alt="" />
         <div class="links">
-          <span class="bar-icon">
+          <span class="bar-icon" onclick="open_bar()">
             <span></span>
             <span></span>
             <span></span>
           </span>
-          <ul>
+          <ul id = "bar_links" onclick="hide_links_bar()">
             <li><a href="#home">Home</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>

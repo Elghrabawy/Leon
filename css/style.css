@@ -11,7 +11,7 @@
   -mox-box-sizing: border-box;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -42,8 +42,8 @@ body {
     width: 1170px;
   }
 }
-/******** Global Components **********/
 
+/******** Global Components **********/
 .section-title {
   position: relative;
   padding: 25px;
@@ -112,10 +112,10 @@ body {
   flex-wrap: wrap;
   justify-content: flex-end;
 }
-
+/* 
 .header .links:hover ul {
   display: block;
-}
+} */
 
 .header .links .bar-icon span {
   background-color: #333;
